@@ -1,3 +1,21 @@
+# Towers of Hanoi plan
+
+
+## Set up board
+1. Set up an object/array of arrays to hold pieces
+1. Assign each piece a value 
+1. Organize each piece in first array in descending order (4,3,2,1)
+
+## Get and move piece 
+1. Use .pop() to remove last item of array and move it to another array with .push()
+1. User move: 
+  * where from? 
+  * Where to? 
+    * Is it a legal move? —is last index of new array less than .pop value?
+1. Check for win… is last array === to length of first array was at beginning?
+
+
+
 # JS211_Towers of Hanoi[![CircleCI](https://circleci.com/gh/AustinCodingAcademy/javascript-workbook/tree/gh-pages.svg?style=svg)](https://circleci.com/gh/AustinCodingAcademy/javascript-workbook/tree/gh-pages)
 
 ![](http://en.gravatar.com/userimage/107370100/a08594145564536138dfaaf072c7b241.png)
