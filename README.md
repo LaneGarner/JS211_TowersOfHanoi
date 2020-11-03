@@ -12,7 +12,7 @@
   * where from? 
   * Where to? 
     * Is it a legal move? —is last index of new array less than .pop value?
-1. Check for win… is last array === to length of first array was at beginning?
+1. giCheck for win… is last array === to length of first array was at beginning?
 
 
 
